@@ -1,8 +1,8 @@
-"""Console script for lambda_deployer."""
+"""Console script for yald."""
 import argparse
 import sys
 
-from . import lambda_deployer
+from . import yald
 
 
 def main():
@@ -20,7 +20,7 @@ def main():
 
     if args.role_arn is not None:
         print(f'Assuming role {args.role_arn!r}')
-        credentials = lambda_deployer.assume_role(args.role_arn)
+        credentials = yald.assume_role(args.role_arn)
     else:
         credentials = None
 
@@ -29,7 +29,7 @@ def main():
         k, v = kv.split('=', 1)
         env[k] = v
 
-    lambda_deployer.update_lambda(
+    yald.update_lambda(
         function_name=args.function_name,
         bucket=args.bucket,
         key=args.key,

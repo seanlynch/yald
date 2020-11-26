@@ -3,11 +3,11 @@ Deployer of AWS Lambdas
 =======================
 
 
-.. image:: https://img.shields.io/pypi/v/lambda_deployer.svg
-        :target: https://pypi.python.org/pypi/lambda_deployer
+.. image:: https://img.shields.io/pypi/v/yald.svg
+        :target: https://pypi.python.org/pypi/yald
 
-.. image:: https://img.shields.io/travis/seanlynch/lambda_deployer.svg
-        :target: https://travis-ci.com/seanlynch/lambda_deployer
+.. image:: https://img.shields.io/travis/seanlynch/yald.svg
+        :target: https://travis-ci.com/seanlynch/yald
 
 .. image:: https://readthedocs.org/projects/lambda-deployer/badge/?version=latest
         :target: https://lambda-deployer.readthedocs.io/en/latest/?badge=latest

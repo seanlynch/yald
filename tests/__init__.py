@@ -1,1 +1,1 @@
-"""Unit test package for lambda_deployer."""
+"""Unit test package for yald."""

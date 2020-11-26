@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=lambda_deployer
+set SPHINXPROJ=yald
 
 if "%1" == "" goto help
 

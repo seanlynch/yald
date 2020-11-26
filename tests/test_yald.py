@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-"""Tests for `lambda_deployer` package."""
+"""Tests for `yald` package."""
 
 
 import unittest
 
-from lambda_deployer import lambda_deployer
+from yald import yald
 
 
-class TestLambda_deployer(unittest.TestCase):
-    """Tests for `lambda_deployer` package."""
+class Testyald(unittest.TestCase):
+    """Tests for `yald` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""

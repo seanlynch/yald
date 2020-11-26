@@ -14,7 +14,7 @@ def assume_role(role_arn) -> Credentials:
     client = boto3.client('sts')
     response = client.assume_role(
         RoleArn=role_arn,
-        RoleSessionName='lambda_deployer'
+        RoleSessionName='yald'
     )
 
     credentials = response['Credentials']
