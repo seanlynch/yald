@@ -9,8 +9,8 @@ Deployer of AWS Lambdas
 .. image:: https://img.shields.io/travis/seanlynch/yald.svg
         :target: https://travis-ci.com/seanlynch/yald
 
-.. image:: https://readthedocs.org/projects/lambda-deployer/badge/?version=latest
-        :target: https://lambda-deployer.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/yald/badge/?version=latest
+        :target: https://yald.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
@@ -26,7 +26,9 @@ Simple script for deploying code for a Lambda.
 Features
 --------
 
-* TODO
+* Deploy code through direct upload
+* Deploy code via S3
+* Assume a role before doing the above
 
 Credits
 -------
