@@ -25,7 +25,11 @@ def main():
         credentials = None
 
     env = {}
-    for kv in args.env:
+    # Can't just set the default for --env to [] or the append action
+    # will mutate the default, which is a potential source of future
+    # bugs.
+    kvs = args.env if args.env is not None else []
+    for kv in kvs:
         k, v = kv.split('=', 1)
         env[k] = v
 
